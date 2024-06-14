@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" sizes="32x32" href="./img/Portfolio-Logo.png">
+   <link rel="stylesheet" href="./styleCode/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&display=swap" rel="stylesheet">
+   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+   <title>For Baby Shark</title>
+</head>
+<body>
+   <article>
+      <main>
+         <div class="done-box displayNone">
+            <div class="scoreEasy">
+               <p class="score">score</p>
+               <p class="scrEas"></p>
+               <p class="goods">Good Job Baby Shark</p>
+            </div>
+            <img src="/Checker/img2/github-sticker.gif" alt="" class="cat-dance">
+         </div>
+         <div class="box">
+            <!--Position absulute-->
+            <img src="/Checker/img2/agenturleben-hannover.gif" alt="" class="cloud">
+            <img src="/Checker/img2/agenturleben-hannover.gif" alt="" class="cloud">
+            <img src="/Checker/img2/agenturleben-hannover.gif" alt="" class="cloud">
+            <!-- Main Questions -->
+            <div class="questions-container">
+               <!-- For User Choose -->
+              <div class="choose-difficulty">
+                  <button class="dificlty easyQ">Easy</button>
+                  <button class="dificlty hardQ">Hard</button>
+               
+                  <img class="cch-dfct" src="/Checker/img2/love-you-roar.gif" alt="">
+               </div>
+
+               <!-- Easy Questions -->
+               <div class="box-questions-holder easyQues displayNone">
+                 <!-- Q1 -->
+                  <div class="question1">
+                     <p class="question-text"><span>Q.</span> A business plan is only necessary for large corporations.</p>
+                     <div class="radioBtns-holder">
+                     <label>
+                        <input type="radio" name="radio1" id="q1-true"> True <br>
+                        <input type="radio" name="radio1" id="q1-false"> False
+                     </label>
+                     </div>
+                     <div class="next-prev-smit-holder">
+                     <span></span>
+                     <button class="next-style nextToQ2">
+                        <img class="right-arrow" src="/Checker/img2/arrow-right-line.svg" alt="">
+                     </button>
+                     </div>
+                     <p class="ii">I</p>
+                  </div>
+                  
+                  <!-- Q2 -->
+                  <div class="question2 displayNone">
+                     <p class="question-text"><span>Q.</span> Marketing is only about advertising products.</p>
+                     <div class="radioBtns-holder">
+                     <label>
+                        <input type="radio" name="radio2" id="q2-true"> True <br>
+                        <input type="radio" name="radio2" id="q2-false"> False
+                     </label>
+                     </div>
+                     <div class="next-prev-smit-holder">
+                     <button class="next-style backToQ1">
+                        <img class="right-arrow" src="/Checker/img2/arrow-left-line.svg" alt="">
+                     </button>
+                     <button class="next-style nextToQ3">
+                        <img class="right-arrow" src="/Checker/img2/arrow-right-line.svg" alt="">
+                     </button>
+                     </div>
+                     <p class="ii">❤</p>
+                  </div>
+                  
+                  <!-- Q3 -->
+                  <div class="question3 displayNone">
+                     <p class="question-text"><span>Q.</span> In a partnership, each partner's liability is limited to the amount they invested in the business.</p>
+                     <div class="radioBtns-holder">
+                     <label>
+                        <input type="radio" name="radio3" id="q3-true"> True <br>
+                        <input type="radio" name="radio3" id="q3-false"> False
+                     </label>
+                     </div>
+                     <div class="next-prev-smit-holder">
+                     <button class="next-style backToQ2">
+                        <img class="right-arrow" src="/Checker/img2/arrow-left-line.svg" alt="">
+                     </button>
+                     <button class="submit">Submit</button>
+                     </div>
+                     <p class="ii">U</p>
+                  </div>
+ 
+               </div>
+
+               <!-- Hard Questions -->
+               <div class="box-questions-holder hardQues displayNone">
+                  <p class="problemMath">
+                     $$\frac{\frac{1}{2} \int_0^{\pi} \sin(x) \, dx}{\lim_{n \to \infty} \left( \frac{n+1}{n} \right)^n}$$
+                 </p>
+                 <div class="userMathAns">
+                     <input class="userAns" type="number" placeholder="0">
+                     <button class="submitAns">submit</button>
+                 </div>
+               </div>
+            </div>
+
+
+
+            <!--Display None Rules-->
+            <div class="rules-cont">
+               <div class="rules-box">
+                  <button class="close">
+                     <img class="closeIMG" src="/Checker/img2/close-circle-fill.svg" alt="">
+                  </button>
+                  <p class="noRulesText">No rules for attorney</p>
+                  <img class="noRulesCat" src="/Checker/img2/noRulse.gif" alt="">
+               </div>
+            </div>
+
+            <!--Position absulute-->
+            <img src="/Checker/img2/cute-cat.gif" alt="" class="cute-cat">
+            <button class="rules">Rules</button>
+         </div>
+      </main>
+   </article>
+
+   <audio id="pop">
+      <source src="/Checker/Sounds/QKTA234-pop.mp3" type="audio/mpeg">
+   </audio>
+
+   <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+Laws Q and A
+
+Q. What is the primary function of the legislative branch of government?
+a. To interpret laws
+b. To enforce laws
+c. To make laws
+
+Answer: c. To make laws
+
+Q. Which amendment to the U.S. Constitution guarantees the right to free speech?
+a. First Amendment
+b. Fourth Amendment
+c. Fifth Amendment
+
+Answer: a. First Amendment
+
+Q. What is the legal term for a written statement sworn to be true?
+a. Subpoena
+b. Affidavit
+c. Deposition
+
+Answer: b. Affidavit
+
+Q. Who is considered the 'father' of the U.S. Constitution?
+a. Thomas Jefferson
+b. George Washington
+c. James Madison
+
+Answer: c. James Madison
+
+Q. What is the highest court in the United States?
+a. Court of Appeals
+b. District Court
+c. Supreme Court
+
+Answer: c. Supreme Court
+
+Q. Which legal principle means "to stand by things decided"?
+a. Habeas corpus
+b. Stare decisis
+c. Mens rea
+
+Answer: b. Stare decisis
+
+Q. What is the term for a law enacted by a legislative body?
+a. Statute
+b. Ordinance
+c. Precedent
+
+Answer: a. Statute
+
+Q. What does the term "double jeopardy" refer to?
+a. Being tried twice for the same offense
+b. Pleading guilty to two different crimes
+c. Serving two consecutive sentences
+
+Answer: a. Being tried twice for the same offense
+
+Q. Who is responsible for representing the government in criminal cases?
+a. Defense attorney
+b. Prosecutor
+c. Public defender
+
+Answer: b. Prosecutor
+
+Q. What is a "tort" in legal terms?
+a. A criminal offense
+b. A civil wrong
+c. A breach of contract
+
+Answer: b. A civil wrong
+
+Q. Which case established the principle of judicial review in the United States?
+a. Marbury v. Madison
+b. Brown v. Board of Education
+c. Roe v. Wade
+
+Answer: a. Marbury v. Madison
+
+Q. What does the term "habeas corpus" mean?
+a. You have the body
+b. Without excuse
+c. Guilty mind
+
+Answer: a. You have the body
+
+Q. What is the primary purpose of contract law?
+a. To enforce criminal penalties
+b. To resolve disputes between individuals
+c. To govern agreements between parties
+
+Answer: c. To govern agreements between parties
+
+Q. In which court are most federal cases first heard?
+a. Supreme Court
+b. Circuit Court
+c. District Court
+
+Answer: c. District Court
+
+Q. What is the legal term for the party who initiates a lawsuit?
+a. Defendant
+b. Plaintiff
+c. Appellant
+
+Answer: b. Plaintiff
+
+Q. Which document serves as the supreme law of the United States?
+a. The Declaration of Independence
+b. The Constitution
+c. The Bill of Rights
+
+Answer: b. The Constitution
+
+-->
