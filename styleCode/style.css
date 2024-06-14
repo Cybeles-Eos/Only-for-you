@@ -97,6 +97,7 @@ main{
 }
 .rules:active{
    scale: 1.2;
+   user-select: none;
 }
 
 
@@ -406,6 +407,7 @@ input{
    border: none;
    transition: 100ms;
    cursor: pointer;
+   user-select: none;
 } 
 .close:active{
    scale: 1.3;
